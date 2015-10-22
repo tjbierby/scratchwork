@@ -61,9 +61,23 @@ function array_sort(array){
 array_sort(new_array);
 
 //Sort
-
+newStringArray=['Tanner',"Brenyn","Cat",'Dog',"Leroy"];
 function sort(stringArray){
+    var swapped;
+    do{
+        swapped=false;
+        for(i=0;i<stringArray.length;i++){
+            if(stringArray[i][i]>stringArray[i+1][i]){
+                var temp=stringArray[i];
+                stringArray[i]=stringArray[i+1];
+                stringArray[i+1]=temp;
+                swapped=true;
+            }
+        }
+    }while(swapped);
+    console.log(stringArray)
 
 
 }
+sort(newStringArray);
 
