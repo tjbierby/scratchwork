@@ -1,3 +1,11 @@
-div div{
-    border:1px solid black;
+body{
+    width:100vw;
+    height:100vh;
+}
+.container{
+
+    text-align: center;
+}
+.calc{
+    border:3px solid blue;
 }
