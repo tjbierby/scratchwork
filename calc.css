@@ -8,4 +8,6 @@ body{
 }
 .calc{
     border:3px solid blue;
+    background-color: darkslategray;
+    color:white;
 }
