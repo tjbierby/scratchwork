@@ -7,7 +7,9 @@ body{
     text-align: center;
 }
 .calc{
-    border:3px solid blue;
+    border:10px solid maroon;
     background-color: darkslategray;
     color:white;
+    border-radius: 10px;
+
 }
